@@ -10,3 +10,18 @@ function isPalindrome(str) {
 }
 
 isPalindrome(`Madam I'm Adam`);
+
+// Palindrome for numbers
+function palindrome(num) {
+  let rev = parseInt(
+    num
+      .toString()
+      .split("")
+      .reverse()
+      .join("")
+  );
+
+  return num === rev ? rev : palindrome(num + rev);
+}
+
+palindrome(87);
