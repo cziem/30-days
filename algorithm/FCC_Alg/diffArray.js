@@ -1,4 +1,4 @@
-// DiffArray
+// DiffArray returns the symmetric difference between two arrays. I.E what is present in one array and absent in the other
 
 function diffArray(arr1, arr2) {
   let unique1 = arr1.filter(arr => arr2.indexOf(arr) === -1);
