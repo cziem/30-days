@@ -8,7 +8,7 @@ function destroyer(arr) {
     return restArgs.indexOf(item) > -1 ? false : item;
   });
 
-  return ar;
+  return arr;
 }
 
 destroyer([1, 2, 3, 1, 2, 3], 2, 3);
