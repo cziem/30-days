@@ -12,3 +12,7 @@ Big O notations are
 - linear runtime: `O (n)` here the runtime increases as `n` increases. You can say: the runtime is directly proportional to the input
 - exponential runtime: `O (n^2)`
 - logarithimic runtime: `O (log n)`
+
+## Start Here...
+
+To learn algorithm, you have to be into it to win it...
